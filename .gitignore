@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Dataset images and generated artifacts
+/data/
+/backend/results/
+/backend/checkpoints/
+/ml_models/*/outputs/
+
+# Trained model binaries
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+torch
+pillow
+numpy
+diffusers
+transformers
+accelerate
+safetensors
+openai>=1.0.0,<3.0.0
